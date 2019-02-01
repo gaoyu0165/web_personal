@@ -35,7 +35,8 @@
   <h3 class="banner-h3" data-aos="fade-down" data-aos-duration="1500">腹有诗书气自华</h3>
   <h3 class="banner-h3"  data-aos="zoom-in-up" data-aos-duration="1500">你最大的危机就是对未来没有危机</h3>
   <div class="lianxi">
-    <div class="weixin" data-aos-easing="ease-out-back" data-aos="zoom-in-down" data-aos-delay="1500" data-aos-duration="1500"></div>
+    <img src="../assets/weixin.jpg" alt="猪东东" style="width:4rem;height:4rem" data-aos-easing="ease-out-back" data-aos="zoom-in-down" data-aos-delay="1500" data-aos-duration="1500">
+    <!-- <div class="weixin" data-aos-easing="ease-out-back" data-aos="zoom-in-down" data-aos-delay="1500" data-aos-duration="1500"></div> -->
     <!-- <a class="qq" aos="zoom-in-up" target=blank href=tencent://message/?uin=429299291&Site=www.woyouli.com&Menu=yes></a> -->
     
     <span class="hero__scroll" aos="fade-up" aos-easing="ease" aos-delay="800">
@@ -77,21 +78,11 @@ var _hmt = _hmt || [];
 }
 </script>
 <style scoped>
-h1,h2,h3,h4,h5,h6,p{font-weight:normal;line-height: 1.2;text-align: center}
-h1,h2,h3,h4,h5,h6{font-family: "ZoomlaXingtiJ6"}
-@font-face{font-family:'ZoomlaXingtiJ6';
-    src: url('https://code.z01.com/font/ZoomlaXingtiJ6.eot?#iefix'); /* IE9 */
-    src: url('https://code.z01.com/font/ZoomlaXingtiJ6.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
-    url('https://code.z01.com/font/ZoomlaXingtiJ6.woff') format("woff"), /* chrome、firefox */
-    url('https://code.z01.com/font/ZoomlaXingtiJ6.ttf') format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
-    url('https://code.z01.com/font/ZoomlaXingtiJ6.svg#ZoomlaXingtiJ6') format("svg"); /* iOS 4.1- */
-    font-style: normal; font-weight: normal;}
-/*hover*/
-       abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-           margin: 0;
-           padding: 0;
-           /* cursor: url('../assets/hover.ico'),auto; */
-       }
+@media screen and (max-width: 801px) {.banner-h3{font-size: 1rem!important;}.headcanvas{transform: scale(0.2)!important;top: 20%!important}
+.banner-h1{padding-top:70%!important }.hero__scroll{top:3%!important;}
+} /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
+
+
 /*header*/
 .logo{background: url(../assets/logo2.png) 50% 50% no-repeat;height: 70px;width: 70px;transition: all 5s ease-in-out;transition-delay:.3s;}
 .nav{transform: translateY(-70px);transition: all 1s;}
@@ -112,17 +103,20 @@ h1,h2,h3,h4,h5,h6{font-family: "ZoomlaXingtiJ6"}
 
 /*banner*/
 #banner{width: 100%;height: 100vh;background: url(../assets/banner.jpg) 50% 50%;background-size: cover;}
-.banner-h3{font-size: 30px;line-height: 50px;}
+.banner-h3{font-size: 30px;line-height: 50px;font-family:"ZoomlaXingtiJ6";    -moz-user-select: none; /*火狐*/ 
+    -webkit-user-select: none; /*webkit浏览器*/ 
+    -ms-user-select: none; /*IE10*/ 
+    -khtml-user-select: none; /*早期浏览器*/ 
+    user-select: none; }
 /*联系qq微信*/
 .lianxi{width: 250px;height: 50px;margin: 0 auto;display: flex;justify-content: space-around;padding-top: 50px;}
-.qq{width: 40px;display: block;background: url(../assets/qq.png) 50% 50% no-repeat;background-size: 100%;}
-.qq:hover{width: 40px;display: block;background: url(../assets/qq2.png) 50% 50% no-repeat;background-size: 100%;}
 .weixin{width: 50px;height: 50px;background: url(../assets/weixin.jpg) ;background-size: cover;transition: all .5s;}
-.weixin:hover{width: 100px;height: 100px;}
+
 /*two*/
 .two{position: relative;z-index: 2;height: 100vh;}
-.canvas-h3{position: absolute;left: 50%;top: 20%;width: 480px;height: 89px;background: url(../assets/dong.png) 50% 50% no-repeat;transform: translate(-50% ,0);}
+/* .canvas-h3{position: absolute;left: 50%;top: 20%;width: 480px;height: 89px;background: url(../assets/dong.png) 50% 50% no-repeat;transform: translate(-50% ,0);} */
 
+/* .header:hover >.index .hero__scroll{top: -20%!important} */
 /*下拉三角*/
 .hero__scroll {
   position: absolute;
@@ -130,9 +124,9 @@ h1,h2,h3,h4,h5,h6{font-family: "ZoomlaXingtiJ6"}
   width: 30px;
   margin: auto;
   display: block;
-  cursor: pointer;
+  /* cursor: pointer; */
   left: 50%;
-  bottom:52%;
+  top:0%;
   transform: translate(-50%,0%);
   text-transform: uppercase; }
   .hero__scroll .chevron, .chevron{

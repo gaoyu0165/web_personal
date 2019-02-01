@@ -1,14 +1,14 @@
 <template>
-  <div class="hello">1
+  <div class="data_3d">
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'data_3d',
   data () {
     return {
-      msg: 'App'
+      msg: 'data_3d'
     }
   }
 }

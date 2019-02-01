@@ -1,6 +1,6 @@
 <template>
   <div class="design">
-    <h1>新版刚上线,持续开发中,请谅解...</h1>
+    <h1>新版刚上线,持续开发中...</h1>
 
 <div class="overlay"></div>
 <div class="container">
@@ -847,7 +847,12 @@ export default {
 }
 </script>
 <style scoped>
-h1{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);z-index: 99;font-size: 50px;color: #333;width: 100%}
+@media screen and (max-width: 801px) {
+
+h1{font-size: 1rem!important}
+} /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
+
+h1{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);z-index: 99;font-size: 2rem;color: #333;width: 100%}
 
 .design {
   margin: 0;

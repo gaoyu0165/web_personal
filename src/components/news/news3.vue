@@ -2,7 +2,8 @@
   <div class="hello">
 
 <div id="header">
-  <h2 class="header-h">葵花宝典</h2>
+  <h2 class="header-h">天方夜谭</h2>
+    <p class="header-p">—大家都这么忙，别整那些没用的</p>
 </div>
   <div id="main">
     <h3>一个小格子一天500万</h3>

@@ -16,11 +16,49 @@ export default {
 </script>
 
 <style >
-body{background-image: url(assets/shadow-footer.png)}
+@media screen and (max-width: 801px) {
+
+#header{height: 3.6rem!important;}.header-h{padding-top: 1rem!important;font-size:1.2rem!important; }
+.main-text{padding: 0rem!important;margin: 0!important;border: none!important;padding:.5rem 0 0 0!important;}.main-pic{margin: 0!important}
+.main-one{flex-direction:column }
+#app p{font-size: 1rem!important;font-size: 1rem}
+#app .header-p{padding: .1rem 0 0 5rem!important;font-size: .3rem!important}
+/* profile 的走马灯的手机高度 */
+.el-carousel__container{height: 4.3rem!important;}
+
+} /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
+
+
+body{background-image: url(assets/shadow-footer.png);width: 100%;height: 100%;}
 /* 导航栏hover下面的宽度 */
 .el-menu--horizontal .el-menu--popup{min-width:115px;text-align: center;}
 .active{background-color: rgba(0,0,0,0)!important;}
 .el-submenu__title{background-color: rgba(0,0,0,0)!important;}
+#header{height: 15rem;background: url(assets/banner3.jpg);background-attachment:fixed;background-size: contain}
+.header-h{font-size: 3rem;font-family:"ZoomlaXingtiJ6";text-align: center;padding-top: 5rem;color: #e11313; }
+#app .header-p{text-align: center;padding: 2rem 0 0 22rem;color: #fff}
+  
+/*hover*/
+       abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+           margin: 0;
+           padding: 0;
+           cursor: url('https://lh3.googleusercontent.com/Qxf09ahLbsbe3MEmK1v57EpTUHyZWWXsbh5equM3i6Enw89V_KrYCquRkT_conJFJHoZ7exSFh66Fe6G6OSHuQuy1S6KW2Qxq2HRKB78YADKD6nAMkQlOXnNhCS8sHney-nfNXoemdKJVDkqvaTGwp8dvFmfZnOSS6vIWSkRGD_kMK7wBRy1q4WlCoL_tlOUrlI59V9H0bTaFlXKQ9-7eOfOMG01JdRT4fzEH3dFTcfG0hqU7m9Tm5ov0vus127x0VZ72cqeU74EWjrNet042CA97JYETMrB1tqIPhPPdQRR-4sooOSvXKeQq3whtHT4LbvGN4p_CqH4Qax-eQ6ePj80U0cODrz8umk8Yg9gOByOWMypZLiFjQASi3CymRz7UFIZVLg02PojqP7qsxCv-GLGtOBRlluk4Q64YbRGyHOtW0_F6rSMeAQQ2zIVhszBXuhepszaUlLMxxc_1qH_gi-JG-ffFdy8d9vF1l3Qzv4LlgIYJXw3Pov9z_Bwl-Mv0mUxU7iNK_jN_82DNtOAImxuerEmv_iCr82ETWwFkf-XYEVMeyrIWtz5_zXzNq2r71pkDQSNF9X2--RgOZRuWQnSziWOi1Q0SBON2dUikZRJy-CBLGLAH-_h4J0jkqMxNFrzDnonLgvzzQcqf6TdurE=w22-h28-no'),auto;
+       }
+
+h1,h2,h3,h4,h5,h6{font-weight:normal;line-height: 1.3;text-align: center}
+h1,h2,h3,h4,h5,h6{font-family: "ZoomlaXingtiJ6"}
+#app p{font-size: 1.1rem}
+@font-face{font-family:'ZoomlaXingtiJ6';
+    src: url('https://code.z01.com/font/ZoomlaXingtiJ6.eot?#iefix'); /* IE9 */
+    src: url('https://code.z01.com/font/ZoomlaXingtiJ6.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
+    url('https://code.z01.com/font/ZoomlaXingtiJ6.woff') format("woff"), /* chrome、firefox */
+    url('https://code.z01.com/font/ZoomlaXingtiJ6.ttf') format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url('https://code.z01.com/font/ZoomlaXingtiJ6.svg#ZoomlaXingtiJ6') format("svg"); /* iOS 4.1- */
+    font-style: normal; font-weight: normal;}
+
+@media screen and (max-width: 801px) {
+  .el-submenu__title{padding: 0!important}
+} /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
 
 /* 默认css */

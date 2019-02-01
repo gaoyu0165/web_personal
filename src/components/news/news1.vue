@@ -1,7 +1,8 @@
 <template>
   <div class="news1">
 <div id="header">
-  <h2 class="header-h">葵花宝典</h2>
+  <h2 class="header-h">天方夜谭</h2>
+    <p class="header-p">—大家都这么忙，别整那些没用的</p>
 </div>
   <div id="main">
 
@@ -83,14 +84,7 @@
     <p>这些领域对于设计师而言都是比较新颖的，也是发展初期，我们需要时刻保持学习的心态，提升自己的竞争力。</p>
     <p>以上内容是<strong>朱东东</strong>个人对UI设计趋势的一些总结，欢迎大家进行补充！thanks！</p>  
   </div>
-<footer>
-  <div class="footer-inner">
-  <div style="display:none;" id="rocket-to-top">
-  <div style="opacity:0;display:block;" class="level-2"></div>
-  <div class="level-3"></div>
-  </div>
-  </div>
-</footer>  </div>
+</div>  
 </template>
 
 <script>

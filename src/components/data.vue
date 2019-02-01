@@ -51,9 +51,9 @@ export default {
           "#c4ccd3"
         ],
         title: {
-          top:"10%",
-          left:'10%',
-          text: "深圳市公安局南山分局出入境大厅综合分析图(虚拟数据)",
+          top:"5%",
+          left:'5%',
+          text: "深圳市公安局南山分局出入境大厅综合分析(虚拟data)",
         //   subtext: "这里只是一个小部分展示，很多其他大数据没时间做，见谅",
           textStyle:{
               align:"center",
@@ -68,7 +68,7 @@ export default {
         },
         legend: {
         top:'9%',
-          data: ["客流量", "消费金额"],
+          data: ["已办理人数", "预约人数"],
           textStyle: {
             color: "#fff"
           }
@@ -145,7 +145,7 @@ export default {
         },
         series: [
           {
-            name: "客流量",
+            name: "已办理人数",
             type: "line",
             data: [
               3464,
@@ -190,7 +190,7 @@ export default {
             }
           },
           {
-            name: "消费金额",
+            name: "预约人数",
             type: "line",
             data: [
               6834,
