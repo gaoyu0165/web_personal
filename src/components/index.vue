@@ -109,7 +109,7 @@ var _hmt = _hmt || [];
     -khtml-user-select: none; /*早期浏览器*/ 
     user-select: none; }
 /*联系qq微信*/
-.lianxi{width: 250px;height: 50px;margin: 0 auto;display: flex;justify-content: space-around;padding-top: 50px;}
+.lianxi{display: flex;justify-content: space-around;padding-top: 50px;}
 .weixin{width: 50px;height: 50px;background: url(../assets/weixin.jpg) ;background-size: cover;transition: all .5s;}
 
 /*two*/
@@ -120,8 +120,6 @@ var _hmt = _hmt || [];
 /*下拉三角*/
 .hero__scroll {
   position: absolute;
-  bottom: 30px;
-  width: 30px;
   margin: auto;
   display: block;
   /* cursor: pointer; */

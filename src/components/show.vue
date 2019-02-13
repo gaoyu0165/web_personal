@@ -4,7 +4,6 @@
         <div class="loadingImg">
         <img v-lazy="img" alt="高清无码" v-for="img in list" :key="img.id" ondragstart="return false">
     </div>-->
-    <video src="../video/lol.mp4" autoplay="autoplay" loop="loop"></video>
     <div v-lazy-container="{ selector: 'img'}">
       <img data-src="http://img.netbian.com/file/2018/0824/ece0c46a8f0eda2d2fcf5a6706462a16.jpg">
       <br>
