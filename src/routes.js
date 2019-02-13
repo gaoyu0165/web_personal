@@ -7,6 +7,7 @@ import news3 from "./components/news/news3.vue";
 import news4 from "./components/news/news4.vue";
 import news5 from "./components/news/news5.vue";
 import design from "./components/design.vue";
+import web from "./components/web.vue";
 import show from "./components/show.vue";
 // import web from "./components/web.vue";
 // import seo from "./components/seo.vue";
@@ -15,6 +16,7 @@ import show from "./components/show.vue";
 import data from "./components/data.vue";
 import data_global from "./components/data_global.vue";
 import data_3d from "./components/data_3d.vue";
+import seo from "./components/seo.vue";
 import he from "./components/HelloWorld.vue";
 
 import mindex from "./components/app/mindex.vue";
@@ -31,10 +33,12 @@ export default [
   {path:'/news/news4',component:news4,name: "news4"},
   {path:'/news/news5',component:news5,name: "news5"},
   {path:'/design',component:design,name: "design"},
+  {path:'/web',component:web,name: "web"},
   {path:'/data',component:data,name: "data"},
   {path:'/data_global',component:data_global,name: "data_global"},
   {path:'/data_3d',component:data_3d,name: "data_3d"},
   {path:'/he',component:he,name: "he"},
   {path:'/show',component:show,name: "show"},
+  {path:'/seo',component:seo,name: "seo"},
   {path:'*',redirect:"/"}
 ]

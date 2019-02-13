@@ -18,9 +18,9 @@
       <el-submenu index="2" class="active">
         <template slot="title">东东技术</template>
         <router-link to="/design"><el-menu-item index="2-1">UI design</el-menu-item></router-link>
-        <router-link to=""><el-menu-item index="2-2" disabled>前端开发</el-menu-item></router-link>
+        <router-link to="/web"><el-menu-item index="2-2">前端开发</el-menu-item></router-link>
         <router-link to=""><el-menu-item index="2-3" disabled>小程序</el-menu-item></router-link>
-        <router-link to=""><el-menu-item index="2-4" disabled>SEO</el-menu-item></router-link>
+        <router-link to="/seo"><el-menu-item index="2-4">SEO</el-menu-item></router-link>
         <router-link to=""><el-menu-item index="2-5" disabled>python</el-menu-item></router-link>
       </el-submenu>
       <el-submenu index="3" class="active tree">
