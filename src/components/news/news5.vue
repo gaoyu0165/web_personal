@@ -6,7 +6,7 @@
 </div>
   <div id="main">
     <h3>你看不懂的眼镜</h3>
-    <img src="https://pic3.zhimg.com/v2-c568714c7c473cadf7d78bb832e91085_1200x500.jpg">
+    <img src="https://pic2.zhimg.com/80/v2-c568714c7c473cadf7d78bb832e91085_hd.jpg">
     <p>眼镜天天戴?</p>
     <p>　　可你的眼镜是什么材质、什么工艺、究竟值多少价格</p>
     <p>　　你的镜片是什么品牌、什么折射率、哪儿生产的、镀膜如何…</p>
