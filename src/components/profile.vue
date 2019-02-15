@@ -5,15 +5,9 @@
   </div>
 <div id="main">
   <div class="main-inner">
-  <el-carousel :interval="4000" type="card" height="18rem" class="main-inner-item">
-    <el-carousel-item v-for="item in items" :key="item">
-      <!-- <h3>{{ item }}</h3> -->
-      <img :src="item" alt="猪东东">       
-    </el-carousel-item>
-  </el-carousel>    
-  
+
   <div class="main-one">
-      <div class="main-pic" data-aos-easing="ease-out-back" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" ><img src="../assets/dong2.jpg" alt="猪东东的轱辘"></div>
+    <div class="main-pic" data-aos-easing="ease-out-back" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" ><img src="../assets/dong2.jpg" alt="猪东东的轱辘"></div>
         <p class="main-text"   data-aos-easing="ease-out-back" data-aos-delay="500" data-aos="fade-up" data-aos-duration="1000">车到山前必有路，哪怕山前拆车卖轱辘</p>
     </div>
     <div class="main-one">
@@ -57,12 +51,7 @@ export default {
   data () {
     return {
       msg: 'profile',
-      items:[
-          "/static/bigimg/data1.jpg",
-          "/static/bigimg/data2.jpg",
-          "/static/bigimg/data3.jpg",
-          "/static/bigimg/shou.jpg",
-      ]
+
     
     }
   }
@@ -121,6 +110,6 @@ h1,h2,h3,h4,h5,h6{font-family: "ZoomlaXingtiJ6"}
   .el-carousel__item:nth-child(2n+1) {
     background-color: #d3dce6;
   }
-.el-carousel{margin: 5rem 0 3rem}
+.el-carousel{margin: 1rem 0 3rem}
 .el-carousel__item  img{width: 100%}
 </style>
