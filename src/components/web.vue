@@ -3,7 +3,7 @@
 
 <div class="data-show">
 <p class="main-inner-p">深圳出入境智慧大厅大数据分析项目</p>
-  <el-carousel :interval="4000" type="card" height="21rem" class="main-inner-item">
+  <el-carousel :interval="4000" type="card" height="28rem" class="main-inner-item">
     <el-carousel-item v-for="item in items" :key="item">
       <!-- <h3>{{ item }}</h3> -->
       <img :src="item" alt="猪东东">
@@ -48,7 +48,11 @@ export default {
     title:{
         text:"自身主要技术参考值(请多包涵)",
         left:"30%",
-        top:"3%"
+        top:"3%",
+        textStyle:{
+            align:"center",
+            textBorderColor:'#e11313',
+            },    
     },    
     // toolbox: {
     //     feature: {
@@ -166,6 +170,7 @@ export default {
 @media screen and (max-width: 801px) {
 .el-carousel{margin: 1.5rem 0 0rem!important}
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
+
 
 #circleChart{height: 100vh;}
 .data-show{height: 100vh;}

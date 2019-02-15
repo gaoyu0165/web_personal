@@ -27,6 +27,11 @@ export default {
 .el-carousel__container{height: 6.2rem!important;}
 
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
+@media screen and (max-width: 1377px) {
+.el-carousel__container{height: 21rem!important;}
+}@media screen and (max-width: 1011px) {
+.el-carousel__container{height: 6rem!important;}
+}
 @media screen and (max-width: 375px) {
 /* profile 的走马灯的手机高度 */
 .el-carousel__container{height: 5.5rem!important;}
