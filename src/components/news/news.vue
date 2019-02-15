@@ -8,19 +8,19 @@
     <dl class="classiclist">
      <router-link to="" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/classic6.jpg" alt="朱东东当你扛不住的时候"></dd>
-      <dt class="classiclist-h">别动我...</dt>
+      <dt class="classiclist-h">别动我...<img src="../../assets/hot.gif"></dt>
      </router-link>
     </dl>
     <dl class="classiclist">
      <router-link to="/news/news4" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/news/172347349686.gif" alt="别乱买了，面膜真正的作用就这一个"></dd>
-      <dt class="classiclist-h">别乱买了，面膜真正的作用就这一个<img src="../../assets/gif1.gif"></dt>
+      <dt class="classiclist-h">别乱买了，面膜真正的作用就这一个</dt>
      </router-link>
     </dl>    
     <dl class="classiclist">
      <router-link to="/news/news2" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/classic19.jpg" alt="东BAT公司内部岗位级别和薪资结构"></dd>
-      <dt class="classiclist-h">BAT公司内部岗位级别和薪资结构<img src="../../assets/hot.gif"></dt>
+      <dt class="classiclist-h">BAT公司内部岗位级别和薪资结构</dt>
      </router-link>
     </dl>
     <dl class="classiclist">
@@ -60,7 +60,8 @@ export default {
 @media screen and (max-width: 801px) {
 .main-text{padding: 0rem!important;margin: 0!important;border: none!important;padding:.5rem 0 0 0!important;}.main-pic{margin: 0!important}
 .main-one{flex-direction:column }
-
+.classiclist{height: 13rem!important;width: 43%!important}
+.classiclist-h{font-size: .8rem!important;line-height: 250%!important}
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
 #main{width: 90%;height: 100%;display: flex;margin: 0 auto;justify-content: center;flex-wrap: wrap;padding-bottom: 50px}
@@ -73,17 +74,17 @@ export default {
     overflow: hidden;
     box-shadow: 0 10px 15px rgba(0,0,0,.05);
     transition: all .2s;
-    margin: 30px 10px 0;}
+    margin: 2rem .5em 0;}
 .classiclist:hover{box-shadow: 0 5px 15px rgba(0,0,0,.3);}
 .classiclist:hover .classiclist-h{background-color: rgba(225,19,19,.5);color: #fff;}
 .classiclist-a{width: 100%;height: 100%;display: block;border-radius: 5px;overflow: hidden;position: relative;}
-.classiclist-h{line-height: 50px;text-align: center;
+.classiclist-h{line-height:300%;text-align: center;height: 14%;
     font-size: 16px;
     color: #6c7b8b;
     text-indent: 0;}
 .classiclist-h img{height: 100%;max-height: 16px;padding-left:5px;}
-.classiclist-img{overflow: hidden;height: 300px;transition: all .5s;}
-.classiclist-img img{height: 300px;transition: all 1s ease-in-out;position: absolute;left: 0;top: 0; will-change: transform;}
-.classiclist-img img:hover{height: 300px;position: absolute;left: 0;top: 0;transform: translate(-100%,0);margin-left: 100%;}
+.classiclist-img{overflow: hidden;height: 86%;transition: all .5s;}
+.classiclist-img img{height: 86%;transition: all 1s ease-in-out;position: absolute;left: 0;top: 0; will-change: transform;}
+.classiclist-img img:hover{height: 86%;position: absolute;left: 0;top: 0;transform: translate(-100%,0);margin-left: 100%;}
 
 </style>

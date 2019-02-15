@@ -56,6 +56,7 @@ export default {
 <style scoped>
 @media screen and (max-width: 801px) {.logo{width:1.5rem!important;height: 1.5rem!important; background-size: contain!important;margin: .5rem 0 0 .2rem;};
 .nav li a {line-height:2.5rem!important;}
+.nav{padding-left: 9%!important}
 /* #app .nav{padding-left:2rem;  background-color: rgba(225, 190, 190, 0.8)!important;}.el-menu--popup a .el-menu-item{border-bottom: none;background-color: rgba(225, 190, 190, 0.8)!important} */
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 

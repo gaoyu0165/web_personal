@@ -24,10 +24,17 @@ export default {
 #app p{font-size: 1rem!important;font-size: 1rem}
 #app .header-p{padding: .1rem 0 0 5rem!important;font-size: .3rem!important}
 /* profile 的走马灯的手机高度 */
-.el-carousel__container{height: 4.3rem!important;}
+.el-carousel__container{height: 5.5rem!important;}
 
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
-
+@media screen and (max-width: 375px) {
+/* profile 的走马灯的手机高度 */
+.el-carousel__container{height: 4.9rem!important;}
+}
+@media screen and (max-width: 325px) {
+/* profile 的走马灯的手机高度 */
+.el-carousel__container{height: 4.2rem!important;}
+}
 
 body{background-image: url(assets/shadow-footer.png);width: 100%;height: 100%;}
 /* 导航栏hover下面的宽度 */

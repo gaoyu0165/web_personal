@@ -35,7 +35,7 @@
   <h3 class="banner-h3" data-aos="fade-down" data-aos-duration="1500">腹有诗书气自华</h3>
   <h3 class="banner-h3"  data-aos="zoom-in-up" data-aos-duration="1500">你最大的危机就是对未来没有危机</h3>
   <div class="lianxi">
-    <img src="../assets/weixin.jpg" alt="猪东东" style="width:4rem;height:4rem" data-aos-easing="ease-out-back" data-aos="zoom-in-down" data-aos-delay="1500" data-aos-duration="1500">
+    <img class="weixin" src="../assets/weixin.jpg" alt="猪东东" data-aos-easing="ease-out-back" data-aos="zoom-in-down" data-aos-delay="1500" data-aos-duration="1500">
     <!-- <div class="weixin" data-aos-easing="ease-out-back" data-aos="zoom-in-down" data-aos-delay="1500" data-aos-duration="1500"></div> -->
     <!-- <a class="qq" aos="zoom-in-up" target=blank href=tencent://message/?uin=429299291&Site=www.woyouli.com&Menu=yes></a> -->
     
@@ -80,6 +80,7 @@ var _hmt = _hmt || [];
 <style scoped>
 @media screen and (max-width: 801px) {.banner-h3{font-size: 1rem!important;}.headcanvas{transform: scale(0.2)!important;top: 20%!important}
 .banner-h1{padding-top:70%!important }.hero__scroll{top:3%!important;}
+.weixin{width: 2rem!important;height: 2rem!important;}
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
 
@@ -110,7 +111,8 @@ var _hmt = _hmt || [];
     user-select: none; }
 /*联系qq微信*/
 .lianxi{display: flex;justify-content: space-around;padding-top: 50px;}
-.weixin{width: 50px;height: 50px;background: url(../assets/weixin.jpg) ;background-size: cover;transition: all .5s;}
+
+.weixin{width: 4rem;height: 4rem;}
 
 /*two*/
 .two{position: relative;z-index: 2;height: 100vh;}
