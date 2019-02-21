@@ -12,7 +12,7 @@
     </div>
     <div class="main-one">
       <div class="main-pic" data-aos-easing="ease-out-back" data-aos="flip-up"  data-aos-duration="1000" ><img src="../assets/dong1.jpg" alt="猪东东的旅游"></div>
-        <p class="main-text"   data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">就是爱旅行...人生的乐趣在于不断的发现新的生活方式和态度，并为之反思...</p>
+        <p class="main-text"   data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">人生的乐趣在于不断的发现新的生活方式和态度，并为之反思...</p>
     </div>
     <div class="main-one">
       <div class="main-pic" data-aos-easing="ease-out-back" data-aos="fade-up-right"  data-aos-duration="1000" ><img src="../assets/dong4.jpg" alt="东东"></div>
@@ -29,6 +29,10 @@
     <div class="main-one">
       <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down"  data-aos-duration="1000" ><img src="../assets/12321.jpg" alt="猪东东的工作"></div>
         <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="1000">不要问我是做什么的...</p>
+    </div>
+    <div class="main-one">
+      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down"  data-aos-duration="1000" ><img src="../assets/wo3.jpg" alt="猪东东的工作"></div>
+        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="1000">偶尔也画下...</p>
     </div>
     <div class="main-one">
       <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-duration="1000" ><img src="../assets/wo2.jpg" alt="猪东东的工作"></div>
