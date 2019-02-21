@@ -7,43 +7,43 @@
   <div class="main-inner">
 
   <div class="main-one">
-    <div class="main-pic" data-aos-easing="ease-out-back" data-aos="zoom-in" data-aos-duration="1000" ><img src="../assets/dong2.jpg" alt="猪东东的轱辘"></div>
-        <p class="main-text"   data-aos-easing="ease-out-back" data-aos-delay="500" data-aos="fade-up" data-aos-duration="1000">车到山前必有路，哪怕山前拆车卖轱辘</p>
+    <div class="main-pic" data-aos-easing="ease-out-back" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000" ><img src="../assets/dong2.jpg" alt="猪东东的轱辘"></div>
+        <p class="main-text"   data-aos-easing="ease-out-back" data-aos-delay="800" data-aos="fade-up" data-aos-duration="1000">车到山前必有路，哪怕山前拆车卖轱辘</p>
     </div>
     <div class="main-one">
-      <div class="main-pic" data-aos-easing="ease-out-back" data-aos="flip-up"  data-aos-duration="1000" ><img src="../assets/dong1.jpg" alt="猪东东的旅游"></div>
-        <p class="main-text"   data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">人生的乐趣在于不断的发现新的生活方式和态度，并为之反思...</p>
+      <div class="main-pic" data-aos-easing="ease-out-back" data-aos="flip-up" data-aos-delay="800" data-aos-duration="1000" ><img src="../assets/dong1.jpg" alt="猪东东的旅游"></div>
+        <p class="main-text"   data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">人生的乐趣在于不断的发现新的生活方式和态度，并为之反思...</p>
     </div>
     <div class="main-one">
-      <div class="main-pic" data-aos-easing="ease-out-back" data-aos="fade-up-right"  data-aos-duration="1000" ><img src="../assets/dong4.jpg" alt="东东"></div>
-        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="500" data-aos-duration="1000">再朴素的衣着也遮不住你那坚毅的眼神...</p>
+      <div class="main-pic" data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="800" data-aos-duration="800" ><img src="../assets/dong4.jpg" alt="东东"></div>
+        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="800" data-aos-duration="1000">再朴素的衣着也遮不住你那坚毅的眼神...</p>
     </div>
     <div class="main-one">
-      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-left" data-aos-duration="1000" ><img src="../assets/dong5.jpg" alt="猪东东的第一次养花"></div>
-        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">第一次养花，那么美...</p>
+      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1000" ><img src="../assets/dong5.jpg" alt="猪东东的第一次养花"></div>
+        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-left" data-aos-delay="900" data-aos-duration="1000">第一次养花，那么美...</p>
     </div>
     <div class="main-one">
-      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down"  data-aos-duration="1000"  style="width: 186px;"><img src="../assets/dong6.gif" alt="猪东东的一瞬间" style="width:180px"></div>
-        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="1000">啊哈哈哈...</p>
+      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000"  style="width: 186px;"><img src="../assets/dong6.gif" alt="猪东东的一瞬间" style="width:180px"></div>
+        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="900" data-aos-duration="1000">啊哈哈哈...</p>
     </div>
     <div class="main-one">
-      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down"  data-aos-duration="1000" ><img src="../assets/12321.jpg" alt="猪东东的工作"></div>
-        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="1000">不要问我是做什么的...</p>
+      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000" ><img src="../assets/12321.jpg" alt="猪东东的工作"></div>
+        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="900" data-aos-duration="1000">不要问我是做什么的...</p>
     </div>
     <div class="main-one">
-      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down"  data-aos-duration="1000" ><img src="../assets/wo3.jpg" alt="猪东东的工作"></div>
-        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="1000">偶尔也画下...</p>
+      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000" ><img src="../assets/wo3.jpg" alt="猪东东的工作"></div>
+        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="900" data-aos-duration="1000">偶尔也画下...</p>
     </div>
     <div class="main-one">
-      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-duration="1000" ><img src="../assets/wo2.jpg" alt="猪东东的工作"></div>
-        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="1000">酷爱运动健身...</p>
+      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000" ><img src="../assets/wo2.jpg" alt="猪东东的工作"></div>
+        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="900" data-aos-duration="1000">酷爱运动健身...</p>
     </div>
     <!-- <div class="main-one">
       <div class="main-pic" data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="500" data-aos-duration="1000" ><img src="../assets/wo.jpg" style="width:180px" alt="这不是猪东东"></div>
         <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="1000" data-aos-duration="1000">小小一张...</p>
     </div>     -->
     <div class="main-one">
-      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="zoom-in-down" data-aos-duration="1000" ><img src="../assets/dong3.jpg" alt="猪东东的梦想"></div>
+      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="zoom-in-down" data-aos-delay="800" data-aos-duration="1000" ><img src="../assets/dong3.jpg" alt="猪东东的梦想"></div>
         <p class="main-text">i have a dreame...</p>
     </div>
   </div>
@@ -69,7 +69,7 @@ export default {
 @media screen and (max-width: 801px) {
 .main-text{padding: 0rem!important;margin: 0!important;border: none!important;padding:.5rem 0 0 0!important;}.main-pic{margin: 0!important}
 .main-one{flex-direction:column;padding: 1rem 0!important; }
-.main-pic img{width: 100%!important;}
+.main-pic img{max-width: 100%!important;margin: 0 auto;}
 .el-carousel{margin: 1.5rem 0 0rem!important}
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
