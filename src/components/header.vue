@@ -13,7 +13,7 @@
         <template slot="title" class="dongdong">东东简介</template>
         <router-link to="/profile"><el-menu-item index="1-1">个人信息</el-menu-item></router-link>
         <router-link to="/news"><el-menu-item index="1-2">天方夜谭</el-menu-item></router-link>
-        <router-link to="/profile"><el-menu-item index="1-3" disabled>暂无信息</el-menu-item></router-link>
+        <router-link ><el-menu-item index="1-3" disabled>暂无信息</el-menu-item></router-link>
       </el-submenu>      
       <el-submenu index="2" class="active">
         <template slot="title">东东技术</template>
@@ -27,7 +27,7 @@
         <template slot="title">大数据展</template>
         <router-link to="/data"><el-menu-item index="3-1">大数据展示</el-menu-item></router-link>
         <router-link to="/data_global"><el-menu-item index="3-2">大数据 + 地图</el-menu-item></router-link>
-        <router-link to="/data_3d"><el-menu-item index="3-3" disabled>3D大数据展示</el-menu-item></router-link>
+        <router-link to=""><el-menu-item index="3-3" disabled>3D大数据展示</el-menu-item></router-link>
       </el-submenu>         
       <el-submenu index="4" class="active">
         <template slot="title" class="active">4K高清</template>
