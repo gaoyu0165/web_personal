@@ -7,7 +7,7 @@
 <script>
 import echarts from "echarts";
 export default {
-  name: "data_3d",
+  name: "data_global",
   data() {
     return {
       msg: "data_3d"

@@ -56,10 +56,10 @@
 
 <script>
 export default {
-  name: 'profile',
+  name: 'qiufenglan',
   data () {
     return {
-      msg: 'profile',
+      msg: 'qiufenglan',
       items:[
           "/static/bigimg/love4.jpg",
           "/static/bigimg/love.jpg",
@@ -98,7 +98,7 @@ h1,h2,h3,h4,h5,h6{font-family: "ZoomlaXingtiJ6"}
 .main-one{display:flex;justify-content: center;padding: 3rem 0;align-items: center;}
 .main-pic{width: 100%;max-width: 506px;margin:0 50px;}
 .main-pic img{width: auto;height: auto;display: block;border: 3px #ccc solid;transition: all .5s;max-width: 512px;}
-.main-text {max-width: 500px;border: 15px #ccc solid;height: 100%;padding: 2rem;display: block;vertical-align: middle;margin:0 50px;border-image: url(../assets/2.png) 30 repeat;}
+.main-text {max-width: 500px;border: 15px #ccc solid;height: 100%;padding: 2rem;display: block;margin:0 50px;border-image: url(../assets/2.png) 30 repeat;}
 .main-pic img:hover{box-shadow: 3px 3px 3px #ccc;transform: translateY(-1px);}
 .main-text:hover{color: #e83a3a;-webkit-animation: pulse 1s linear infinite;border: 15px #ccc solid;border-image: url(../assets/1.png) 30 repeat;
             animation: pulse 1s linear infinite;}

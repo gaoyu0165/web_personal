@@ -59,7 +59,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'news3',
   data () {
     return {
       msg: 'App'

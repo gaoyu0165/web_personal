@@ -104,7 +104,7 @@ var _hmt = _hmt || [];
 
 /*banner*/
 #banner{width: 100%;height: 100vh;background: url(../assets/banner.jpg) 50% 50%;background-size: cover;}
-.banner-h3{font-size: 30px;line-height: 50px;font-family:"ZoomlaXingtiJ6";    -moz-user-select: none; /*火狐*/ 
+.banner-h3{font-size: 30px;line-height: 50px;font-family:"hysz";    -moz-user-select: none; /*火狐*/ 
     -webkit-user-select: none; /*webkit浏览器*/ 
     -ms-user-select: none; /*IE10*/ 
     -khtml-user-select: none; /*早期浏览器*/ 

@@ -168,7 +168,7 @@ export default {
   name: 'news1',
   data () {
     return {
-      msg: 'news1',
+      msg: 'news5',
       imgUrl:'../../assets/classic3.png'
     }
   }

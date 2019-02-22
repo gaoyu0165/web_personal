@@ -84,7 +84,7 @@
 
 <script>
 export default {
-  name: 'news1',
+  name: 'news4',
   data () {
     return {
       msg: 'news1',

@@ -8,7 +8,7 @@
 <script>
 import echarts from "echarts";
 export default {
-  name: "help",
+  name: "data",
   data() {
     return {
       //地点分布图

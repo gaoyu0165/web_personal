@@ -47,7 +47,7 @@ body{background-image: url(assets/shadow-footer.png);width: 100%;height: 100%;}
 .active{background-color: rgba(0,0,0,0)!important;}
 .el-submenu__title{background-color: rgba(0,0,0,0)!important;}
 #header{height: 15rem;background: url(assets/banner3.jpg);background-attachment:fixed;background-size: contain}
-.header-h{font-size: 3rem;font-family:"ZoomlaXingtiJ6";text-align: center;padding-top: 5rem;color: #e11313; }
+.header-h{font-size: 3rem;font-family:"hysz";text-align: center;padding-top: 5rem;color: #e11313; }
 #app .header-p{text-align: center;padding: 2rem 0 0 22rem;color: #fff}
   
 /*hover*/
@@ -58,15 +58,16 @@ body{background-image: url(assets/shadow-footer.png);width: 100%;height: 100%;}
        }
 
 h1,h2,h3,h4,h5,h6{font-weight:normal;line-height: 1.3;text-align: center}
-h1,h2,h3,h4,h5,h6{font-family: "ZoomlaXingtiJ6"}
 #app p{font-size: 1.1rem}
-@font-face{font-family:'ZoomlaXingtiJ6';
-    src: url('https://code.z01.com/font/ZoomlaXingtiJ6.eot?#iefix'); /* IE9 */
-    src: url('https://code.z01.com/font/ZoomlaXingtiJ6.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
-    url('https://code.z01.com/font/ZoomlaXingtiJ6.woff') format("woff"), /* chrome、firefox */
-    url('https://code.z01.com/font/ZoomlaXingtiJ6.ttf') format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
-    url('https://code.z01.com/font/ZoomlaXingtiJ6.svg#ZoomlaXingtiJ6') format("svg"); /* iOS 4.1- */
-    font-style: normal; font-weight: normal;}
+@font-face {
+  font-family: 'hysz';
+  src: url('./fonts/HYSuZeLiXingKaiTruingF-2.eot');
+  src:
+    url('./fonts/HYSuZeLiXingKaiTruingF-2.eot?#') format('embedded-opentype'),
+    url('./fonts/HYSuZeLiXingKaiTruingF-2.woff') format('woff'),
+    url('./fonts/HYSuZeLiXingKaiTruingF-2.ttf') format('truetype'),
+    url('./fonts/HYSuZeLiXingKaiTruingF-2.svg') format('svg');
+}
 
 @media screen and (max-width: 801px) {
   .el-submenu__title{padding: 0!important}
