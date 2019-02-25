@@ -47,7 +47,7 @@ body{background-image: url(assets/shadow-footer.png);width: 100%;height: 100%;}
 .active{background-color: rgba(0,0,0,0)!important;}
 .el-submenu__title{background-color: rgba(0,0,0,0)!important;}
 #header{height: 15rem;background: url(assets/banner3.jpg);background-attachment:fixed;background-size: contain}
-.header-h{font-size: 3rem;font-family:"hysz";text-align: center;padding-top: 5rem;color: #e11313; }
+.header-h{font-size: 3rem;text-align: center;padding-top: 5rem;color: #e11313; }
 #app .header-p{text-align: center;padding: 2rem 0 0 22rem;color: #fff}
   
 /*hover*/
@@ -59,7 +59,7 @@ body{background-image: url(assets/shadow-footer.png);width: 100%;height: 100%;}
 
 h1,h2,h3,h4,h5,h6{font-weight:normal;line-height: 1.3;text-align: center}
 #app p{font-size: 1.1rem}
-@font-face {
+/* @font-face {
   font-family: 'hysz';
   src: url('./fonts/HYSuZeLiXingKaiTruingF-2.eot');
   src:
@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5,h6{font-weight:normal;line-height: 1.3;text-align: center}
     url('./fonts/HYSuZeLiXingKaiTruingF-2.woff') format('woff'),
     url('./fonts/HYSuZeLiXingKaiTruingF-2.ttf') format('truetype'),
     url('./fonts/HYSuZeLiXingKaiTruingF-2.svg') format('svg');
-}
+} */
 
 @media screen and (max-width: 801px) {
   .el-submenu__title{padding: 0!important}

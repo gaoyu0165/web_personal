@@ -75,7 +75,6 @@ export default {
 
 
 h1,h2,h3,h4,h5,h6,p{font-weight:normal;line-height: 1.2;}
-h1,h2,h3,h4,h5,h6{font-family: "ZoomlaXingtiJ6"}
 @font-face{font-family:'ZoomlaXingtiJ6';
     src: url('https://code.z01.com/font/ZoomlaXingtiJ6.eot?#iefix'); /* IE9 */
     src: url('https://code.z01.com/font/ZoomlaXingtiJ6.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
