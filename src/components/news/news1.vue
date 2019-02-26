@@ -1,7 +1,7 @@
 <template>
   <div class="news1">
 <div id="header">
-  <h2 class="header-h">天方夜谭</h2>
+  <h2 class="header-h"><img src="../../../static/bigimg/news.png" alt="猪东东"></h2>
     <p class="header-p">—大家都这么忙，别整那些没用的</p>
 </div>
   <div id="main">

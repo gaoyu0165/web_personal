@@ -21,12 +21,10 @@ import data_3d from "./components/data_3d.vue";
 import seo from "./components/seo.vue";
 import he from "./components/HelloWorld.vue";
 
-import mindex from "./components/app/mindex.vue";
 
 
 export default [
   {path:'/',component:index,name: "index"},
-  {path:'/mindex',component:mindex,name: "mindex"},
   {path:'/profile',component:profile,name: "profile"},
   {path:'/tanxin',component:tanxin,name: "tanxin"},
   {path:'/qiufenglan',component:qiufenglan,name: "qiufenglan"},

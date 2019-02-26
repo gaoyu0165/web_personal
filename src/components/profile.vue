@@ -1,7 +1,7 @@
 <template>
   <div class="profile">
 <div id="header">
-  <h2 class="header-h">个人资料</h2>
+  <h2 class="header-h"><img src="../../static/bigimg/personal.png" alt="猪东东"></h2>
   </div>
 <div id="main">
   <div class="main-inner">

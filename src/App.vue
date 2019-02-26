@@ -18,7 +18,7 @@ export default {
 <style >
 @media screen and (max-width: 801px) {
 
-#header{height: 3.6rem!important;}.header-h{padding-top: 1rem!important;font-size:1.2rem!important; }
+#header{height: 3.6rem!important;}.header-h{padding-top: 1rem!important;}
 .main-text{padding: 0rem!important;margin: 0!important;border: none!important;padding:.5rem 0 0 0!important;}.main-pic{margin: 0!important}
 .main-one{flex-direction:column }
 #app p{font-size: 1rem!important;font-size: 1rem}
@@ -47,7 +47,7 @@ body{background-image: url(assets/shadow-footer.png);width: 100%;height: 100%;}
 .active{background-color: rgba(0,0,0,0)!important;}
 .el-submenu__title{background-color: rgba(0,0,0,0)!important;}
 #header{height: 15rem;background: url(assets/banner3.jpg);background-attachment:fixed;background-size: contain}
-.header-h{font-size: 3rem;text-align: center;padding-top: 5rem;color: #e11313; }
+.header-h{padding-top: 6rem;}
 #app .header-p{text-align: center;padding: 2rem 0 0 22rem;color: #fff}
   
 /*hover*/

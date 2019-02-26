@@ -76,7 +76,7 @@ export default {
             axisLabel:{
                 interval:0  //横轴各个技术点的最小间隔
             },       
-            data: ['HTML5','css3','JavaScript','VUE','echarts','Photoshop','SEO','小程序','大数据','git','Flash','After Effects','canvas','VUEX','axios','微信公众号','Python在学'],
+            data: ['HTML5','css3','JavaScript','VUE','echarts','Photoshop','SEO','小程序','大数据','git','Flash','After Effects','canvas','VUEX','axios','微信公众号','webpack','node.js','Python在学'],
             axisPointer: {
                 type: 'shadow'
             }
@@ -114,19 +114,19 @@ export default {
             name:'技术熟练度',
             type:'bar',
             barMaxWidth:13,
-            data:[88, 90,73,87,86, 66,66, 86,89,77, 59,53,40,88,86,82,13]
+            data:[88, 90,73,87,86, 66,66, 86,89,77, 59,53,40,88,86,82,77,45,13]
         },
         {
             name:'项目熟练度',
             type:'bar',
             barMaxWidth:13,
-            data:[90,86,81,88, 88,82, 47, 80,88,83, 39, 35,45,82,88,54,9]
+            data:[90,86,81,88, 88,82, 47, 80,88,83, 39, 35,45,82,88,54,66,33,9]
         },
         {
             name:'使用年限',
             type:'line',
             yAxisIndex: 1,
-            data:[5, 5, 3, 2, 2,6, 4,1,2,4, 6, 2,1,2,2,1,0.5]
+            data:[5, 5, 3, 2, 2,6, 4,1,2,4, 6, 2,1,2,2,1,2,1,0.5]
         }
     ],
         visualMap: {
