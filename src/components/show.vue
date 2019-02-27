@@ -7,23 +7,11 @@
     <div v-lazy-container="{ selector: 'img'}">
       <img data-src="http://img.netbian.com/file/2018/0824/ece0c46a8f0eda2d2fcf5a6706462a16.jpg">
       <br>
+      <img data-src="http://img.netbian.com/file/2018/0223/8ead41c8ffafcfdedc4e9b2b35f2a178.jpg"> 
+      <br>
       <img data-src="http://img.netbian.com/file/2018/0209/8df92d94b9a270b022131a54274c804d.jpg">
-      <br>
-      <img data-src="http://img.netbian.com/file/2018/0223/8ead41c8ffafcfdedc4e9b2b35f2a178.jpg">
-      <br>
-      <img
-        data-src="https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g5/M00/0B/0D/ChMkJ1vfv8CIPE_KAAXxnkEREWgAAs9xAG8-zQABfG2168.jpg"
-      >
-      <br>
-      <img data-src="http://img.netbian.com/file/2018/0625/562b13833627932e24d359a4a3aff333.jpg">
-      <br>
-      <img data-src="http://img.netbian.com/file/2019/0125/c044b7e72b514270ab54a6224c1cb251.jpg">
-      <br>
-      <img data-src="http://img.demaxiya.com/uploads/allimg/150210/DJSonaKinetic.jpg">
-      <br>
-      <img data-src="http://img.netbian.com/file/2017/1218/de7046b0fe2c04ec82553372c15f1938.jpg">
-      <br>
-    </div>
+      <br>    
+      </div>
     <img src="../../static/bigimg/9.jpg" alt>
   </div>
 </template>

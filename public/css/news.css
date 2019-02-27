@@ -1,28 +1,16 @@
 
 @media screen and (max-width: 801px) {
 #main{width: 97%!important;}
-#main h3{font-size: 1.5rem!important;padding: 1rem 0 .5rem 0!important;}
+#main h3{font-size: 1.3rem!important;padding: 1rem 0 .5rem 0!important;}
     } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
-
-@font-face{font-family:'ZoomlaXingtiJ6';
-    src: url('https://code.z01.com/font/ZoomlaXingtiJ6.eot?#iefix'); /* IE9 */
-    src: url('https://code.z01.com/font/ZoomlaXingtiJ6.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
-    url('https://code.z01.com/font/ZoomlaXingtiJ6.woff') format("woff"), /* chrome、firefox */
-    url('https://code.z01.com/font/ZoomlaXingtiJ6.ttf') format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
-    url('https://code.z01.com/font/ZoomlaXingtiJ6.svg#ZoomlaXingtiJ6') format("svg"); /* iOS 4.1- */
-    font-style: normal; font-weight: normal;}
-
-.banner-h3{text-align: center;font-size: 30px;line-height: 
-50px;}
-.banner-h1{text-align: center;font-size: 58px;line-height: 1.5;}
 #main{width: 80%;margin: 0 auto}
 #main h3{ font-size: 2.5rem;
     line-height: 1.5em;
     padding: 2rem 0 1rem 0;
     text-align: center;
     color: #404040;
-    font-weight: bold;}
+    font-weight: 600;}
 #main h5{font-weight: 600;color: #404040;text-align: center;font-size: 20px;line-height: 50px;}
 #main p{margin-bottom: 15px;
     color: #000;line-height: 2em;text-indent: 2em;}

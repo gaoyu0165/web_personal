@@ -19,10 +19,12 @@ export default {
 @media screen and (max-width: 801px) {
 
 #header{height: 3.6rem!important;}.header-h{padding-top: 1rem!important;}
+/* 标题字大小 */
+.header-h img{width:27%!important;margin: 0 auto;vertical-align:middle} 
 .main-text{padding: 0rem!important;margin: 0!important;border: none!important;padding:.5rem 0 0 0!important;}.main-pic{margin: 0!important}
 .main-one{flex-direction:column }
 #app p{font-size: 1rem!important;font-size: 1rem}
-#app .header-p{padding: .1rem 0 0 5rem!important;font-size: .3rem!important}
+#app .header-p{padding: .1rem 0 0 5rem!important;font-size: .25rem!important}
 /* profile 的走马灯的手机高度 */
 .el-carousel__container{height: 6.2rem!important;}
 
@@ -31,14 +33,17 @@ export default {
 .el-carousel__container{height: 21rem!important;}
 }@media screen and (max-width: 1011px) {
 .el-carousel__container{height: 6rem!important;}
+.header-h img{width:20%!important;margin: 0 auto;vertical-align:middle}
 }
 @media screen and (max-width: 375px) {
 /* profile 的走马灯的手机高度 */
 .el-carousel__container{height: 5.5rem!important;}
+.header-h img{width:20%!important;margin: 0 auto;vertical-align:middle}
 }
 @media screen and (max-width: 325px) {
 /* profile 的走马灯的手机高度 */
 .el-carousel__container{height: 4.7rem!important;}
+.header-h img{width:30%!important;margin: 0 auto;vertical-align:middle}
 }
 
 body{background-image: url(assets/shadow-footer.png);width: 100%;height: 100%;}
