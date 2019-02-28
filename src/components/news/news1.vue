@@ -6,16 +6,9 @@
 </div>
   <div id="main">
 
-    <h3>2018UI设计趋势</h3>
+    <h3>2019UI设计趋势</h3>
+    <p class="Author">本文转自：UI设计达人<span>(致敬原著，如有偏差，请联系)</span></p>
     <img src="../../assets/classic3.png">
-
-<!-- 懒加载图片 -->
-<!-- <img v-lazy="传参"> -->
-
-<!-- <div v-lazy-container="{ selector: 'img'}" >
-  <img data-src="https://s3.ifanr.com/wp-content/uploads/2018/03/linxinzhao-1.jpg!100">
-</div> -->
-
     <p>设计趋势往往会受到当今主流媒体，技术的发展，时尚趋势等等影响，设计趋势一般是慢慢形成的，循序渐进的。当然，随着时间的交替也会以同样新旧交替的形式变得落后。2018年的设计趋势将继续延续2017的设计形式，同时也增加了许多新的方式</p>
     <h5>先来看一下整体目录：</h5>
     <img src="../../assets/classic7.jpg">

@@ -41,6 +41,12 @@
       <dt class="classiclist-h">2019UI设计趋势</dt>
      </router-link>
     </dl>
+    <dl class="classiclist">
+     <router-link to="/news/news6" class="classiclist-a">
+      <dd class="classiclist-img"><img src="../../assets/news/chip1.jpg" alt="看看中国“芯”"></dd>
+      <dt class="classiclist-h">看看中国“芯”</dt>
+     </router-link>
+    </dl>
 
 
   </div>  </div>

@@ -62,7 +62,7 @@ export default {
 
 
 .header{width: 100%;height: 3.75rem;position: fixed;z-index: 98;overflow: hidden;}
-.nav{transform: translateY(-3.75rem);transition: all 1s;padding-left: 5%;z-index: 99;background-color: rgba(0,0,0,.3)!important}
+.nav{transform: translateY(-3.75rem);transition: all 1s;padding-left: 5%;z-index: 99;background-color: rgba(0,0,0,.4)!important;}
 .header:hover .nav{display: block;transform: translateY(0)}
 /*nav*/
 .nav > li {

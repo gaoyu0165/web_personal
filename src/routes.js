@@ -8,13 +8,11 @@ import news2 from "./components/news/news2.vue";
 import news3 from "./components/news/news3.vue";
 import news4 from "./components/news/news4.vue";
 import news5 from "./components/news/news5.vue";
+import news6 from "./components/news/news6.vue";
 import design from "./components/design.vue";
 import web from "./components/web.vue";
 import show from "./components/show.vue";
-// import web from "./components/web.vue";
-// import seo from "./components/seo.vue";
-// import python from "./components/python.vue";
-// import Program from "./components/Program.vue";
+
 import data from "./components/data.vue";
 import data_global from "./components/data_global.vue";
 import data_3d from "./components/data_3d.vue";
@@ -34,6 +32,7 @@ export default [
   {path:'/news/news3',component:news3,name: "news3"},
   {path:'/news/news4',component:news4,name: "news4"},
   {path:'/news/news5',component:news5,name: "news5"},
+  {path:'/news/news6',component:news6,name: "news6"},
   {path:'/design',component:design,name: "design"},
   {path:'/web',component:web,name: "web"},
   {path:'/data',component:data,name: "data"},
