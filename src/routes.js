@@ -2,6 +2,7 @@ import index from "./components/index.vue";
 import profile from "./components/profile.vue";
 import tanxin from "./components/tanxin.vue";
 import qiufenglan from "./components/qiufenglan.vue";
+import liaoxing from "./components/liaoxing.vue";
 import news from "./components/news/news.vue";
 import news1 from "./components/news/news1.vue";
 import news2 from "./components/news/news2.vue";
@@ -26,6 +27,7 @@ export default [
   {path:'/profile',component:profile,name: "profile"},
   {path:'/tanxin',component:tanxin,name: "tanxin"},
   {path:'/qiufenglan',component:qiufenglan,name: "qiufenglan"},
+  {path:'/liaoxing',component:liaoxing,name: "liaoxing"},
   {path:'/news',component:news,name: "news"},
   {path:'/news/news1',component:news1,name: "news1"},
   {path:'/news/news2',component:news2,name: "news2"},

@@ -1,6 +1,8 @@
 
 @media screen and (max-width: 801px) {
 #main{width: 97%!important;}
+#main .Author{font-size: .7rem!important;}
+#main .Author span{font-size: .5rem!important}
 #main h3{font-size: 1.3rem!important;padding: 1rem 0 .5rem 0!important;}
     } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
