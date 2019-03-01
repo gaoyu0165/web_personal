@@ -1,9 +1,7 @@
 <template>
-  <div class="news1">
-<div id="header">
-  <h2 class="header-h"><img src="../../../static/bigimg/news.png" alt="猪东东"></h2>
-  <p class="header-p">—大家都这么忙，别整那些没用的</p>
-</div>
+  <div class="news4">
+  <news_header></news_header>
+
   <div id="main">
     <h3>别乱买了，面膜真正的作用就这一个</h3>
     <p class="Author">本文转自：丁香医生<span>(致敬原著，如有偏差，请联系)</span></p>
@@ -84,6 +82,8 @@
 </template>
 
 <script>
+import news_header from "./news_header";
+
 export default {
   name: 'news4',
   data () {
@@ -91,8 +91,11 @@ export default {
       msg: 'news1',
       imgUrl:'../../assets/classic3.png'
     }
+  },
+  components:{
+    news_header
   }
-}
+  }
 </script>
 <style scoped>
 @import "../../../public/css/news.css";

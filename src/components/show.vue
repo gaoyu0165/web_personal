@@ -1,18 +1,16 @@
 <template>
   <div class="show">
-    <!-- <video src="/static/bigimg/lol.mp4" autoplay="autoplay" loop="loop"></video>
-        <div class="loadingImg">
-        <img v-lazy="img" alt="高清无码" v-for="img in list" :key="img.id" ondragstart="return false">
-    </div>-->
+
     <div v-lazy-container="{ selector: 'img'}">
-      <img data-src="http://img.netbian.com/file/2018/0824/ece0c46a8f0eda2d2fcf5a6706462a16.jpg">
+      <img data-src="/static/bigimg/show1.jpg">
       <br>
-      <img data-src="http://img.netbian.com/file/2018/0223/8ead41c8ffafcfdedc4e9b2b35f2a178.jpg"> 
+      <img data-src="/static/bigimg/show3.jpg">
       <br>
-      <img data-src="http://img.netbian.com/file/2018/0209/8df92d94b9a270b022131a54274c804d.jpg">
-      <br>    
-      </div>
-    <img src="../../static/bigimg/9.jpg" alt>
+      <img data-src="/static/bigimg/show2.jpg">
+      <br>   
+      <img data-src="/static/bigimg/show4.jpg">
+    </div>
+    
   </div>
 </template>
 

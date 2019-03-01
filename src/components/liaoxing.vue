@@ -22,11 +22,11 @@
     </div>
     <div class="main-one">
       <div class="main-pic" data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="500" data-aos-duration="1000" ><img src="../../static/loveimg/liaoxing6.jpg" alt="这不是猪东东"></div>
-        <p class="main-text" data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="1000" data-aos-duration="1000">第一次学她抽烟：<br>就再也戒不掉了</p>
+        <p class="main-text" data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="1000" data-aos-duration="1000">第一次跟她学抽烟：<br>就再也戒不掉了</p>
     </div>     
     <div class="main-one">
       <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" ><img src="../../static/loveimg/liaoxing7.jpg" alt="猪东东的工作"></div>
-        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="1000">第一次在办公室电脑都换上了同一个姑娘</p>
+        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="1000">第一次在办公室电脑都换上了同一个她</p>
     </div>        
     <div class="main-one">
       <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" ><img src="../../static/loveimg/liaoxing9.jpg" alt="猪东东的工作"></div>
@@ -37,8 +37,8 @@
         <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="500" data-aos-duration="1000">第一次和她闹分手</p>
     </div>         
     <div class="main-one">
-      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" ><img src="../../static/loveimg/liaoxing5.jpg" alt="猪东东的一瞬间" style="width:180px"></div>
-        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="1000">第一次感觉这游戏没意思了</p>
+      <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" ><img src="../../static/loveimg/liaoxing5.jpg" alt="猪东东的一瞬间"></div>
+        <p class="main-text"    data-aos-easing="ease-out-back" data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="1000">第一次感觉游戏没什么意思了</p>
     </div>
     <div class="main-one">
       <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" ><img src="../../static/loveimg/liaoxing4.jpg" alt="猪东东的第一次养花"></div>

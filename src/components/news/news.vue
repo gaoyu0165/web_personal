@@ -1,16 +1,19 @@
 <template>
   <div class="news">
-<div id="header">
-  <h2 class="header-h"><img src="../../../static/bigimg/news.png" alt="猪东东"></h2>
-    <p class="header-p">—大家都这么忙，别整那些没用的</p>
-</div>
+  <news_header></news_header>
   <div id="main">
     <dl class="classiclist">
      <router-link to="" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/classic6.jpg" alt="朱东东当你扛不住的时候"></dd>
-      <dt class="classiclist-h">别动我...<img src="../../assets/hot.gif"></dt>
+      <dt class="classiclist-h">别动我...<img src="../../assets/xin.gif"></dt>
      </router-link>
     </dl>
+    <dl class="classiclist">
+     <router-link to="/news/news6" class="classiclist-a">
+      <dd class="classiclist-img"><img src="../../assets/news/chip1.jpg" alt="看看中国“芯”"></dd>
+      <dt class="classiclist-h">看看中国“芯”<img src="../../assets/xin.png"></dt>
+     </router-link>
+    </dl>    
     <dl class="classiclist">
      <router-link to="/news/news4" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/news/172347349686.gif" alt="别乱买了，面膜真正的作用就这一个"></dd>
@@ -41,24 +44,23 @@
       <dt class="classiclist-h">2019UI设计趋势</dt>
      </router-link>
     </dl>
-    <dl class="classiclist">
-     <router-link to="/news/news6" class="classiclist-a">
-      <dd class="classiclist-img"><img src="../../assets/news/chip1.jpg" alt="看看中国“芯”"></dd>
-      <dt class="classiclist-h">看看中国“芯”</dt>
-     </router-link>
-    </dl>
+
 
 
   </div>  </div>
 </template>
 
 <script>
+import news_header from "./news_header";
 export default {
   name: 'news',
   data () {
     return {
       msg: 'news'
     }
+  },
+  components:{
+    news_header
   }
 }
 </script>
@@ -92,5 +94,5 @@ export default {
 .classiclist-img{overflow: hidden;height: 86%;transition: all .5s;}
 .classiclist-img img{height: 86%;transition: all 1s ease-in-out;position: absolute;left: 0;top: 0; will-change: transform;}
 .classiclist-img img:hover{height: 86%;position: absolute;left: 0;top: 0;transform: translate(-100%,0);margin-left: 100%;}
-
+#header .header_p{font-size: .7rem;color: #666;text-align: center;padding-top: 1rem;}
 </style>

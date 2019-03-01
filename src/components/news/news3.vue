@@ -1,10 +1,7 @@
 <template>
-  <div class="hello">
+  <div class="news3">
+  <news_header></news_header>
 
-<div id="header">
-  <h2 class="header-h"><img src="../../../static/bigimg/news.png" alt="猪东东"></h2>
-    <p class="header-p">—大家都这么忙，别整那些没用的</p>
-</div>
   <div id="main">
     <h3>一个小格子一天500万</h3>
     <p class="Author">本文转自：何小桃<span>(致敬原著，如有偏差，请联系)</span></p>
@@ -59,14 +56,19 @@
 </template>
 
 <script>
+import news_header from "./news_header";
+
 export default {
   name: 'news3',
   data () {
     return {
       msg: 'App'
     }
+  },
+  components:{
+    news_header
   }
-}
+  }
 </script>
 <style scoped>
 @import "../../../public/css/news.css";

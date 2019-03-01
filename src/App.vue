@@ -24,7 +24,6 @@ export default {
 .main-text{padding: 0rem!important;margin: 0!important;border: none!important;padding:.5rem 0 0 0!important;}.main-pic{margin: 0!important}
 .main-one{flex-direction:column }
 #app p{font-size: 1rem!important;font-size: 1rem}
-#app .header-p{padding: .1rem 0 0 5rem!important;font-size: .25rem!important}
 /* profile 的走马灯的手机高度 */
 .el-carousel__container{height: 6.2rem!important;}
 
@@ -53,7 +52,6 @@ body{background-image: url(assets/shadow-footer.png);width: 100%;height: 100%;}
 .el-submenu__title{background-color: rgba(0,0,0,0)!important;}
 #header{height: 15rem;background: url(assets/banner3.jpg);background-attachment:fixed;background-size: contain}
 .header-h{padding-top: 6rem;}
-#app .header-p{text-align: center;padding: 2rem 0 0 22rem;color: #fff}
   
 /*hover*/
        abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
