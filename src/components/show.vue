@@ -30,7 +30,10 @@ export default {
       //     "/static/bigimg/9.jpg",
       // ]
     };
-  }
+  },
+  mounted() {
+    document.title = "猪东东-图片懒加载"
+  }  
 };
 </script>
 <style scoped>

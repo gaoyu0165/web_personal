@@ -21,8 +21,12 @@
         <p class="main-text"   data-aos-easing="ease-out-back" data-aos-delay="500" data-aos="fade-up" data-aos-duration="1000">第一次陪她吃饭的味道:<br>如果就这样一辈子该多好！</p>
     </div>
     <div class="main-one">
+      <div class="main-pic" data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="500" data-aos-duration="1000" ><img src="../../static/loveimg/liaoxing10.jpg" alt="这不是猪东东"></div>
+        <p class="main-text" data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="1000" data-aos-duration="1000">第一次跟她学抽烟：<br>我愿用全村人单身,换一个她</p>
+    </div>     
+    <div class="main-one">
       <div class="main-pic" data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="500" data-aos-duration="1000" ><img src="../../static/loveimg/liaoxing6.jpg" alt="这不是猪东东"></div>
-        <p class="main-text" data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="1000" data-aos-duration="1000">第一次跟她学抽烟：<br>就再也戒不掉了</p>
+        <p class="main-text" data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="1000" data-aos-duration="1000">黄天在上,厚土为证:<br>就再也戒不掉了</p>
     </div>     
     <div class="main-one">
       <div class="main-pic"  data-aos-easing="ease-out-back" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" ><img src="../../static/loveimg/liaoxing7.jpg" alt="猪东东的工作"></div>
@@ -75,6 +79,9 @@ export default {
       ]
     
     }
+  },
+  mounted(){
+    document.title = document.querySelector(".header-h").innerText
   }
 }
 </script>

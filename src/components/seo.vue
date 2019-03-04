@@ -13,7 +13,10 @@ export default {
     return {
       msg: 'seo'
     }
-  }
+  },
+  mounted(){
+    document.title = "猪东东-搜索引擎优化"
+  }    
 }
 </script>
 <style scoped>

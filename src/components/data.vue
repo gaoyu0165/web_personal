@@ -432,6 +432,7 @@ export default {
   },
   mounted() {
     this.drawecharts();
+    document.title = "猪东东-大数据可视化"
   },
   components: {
     // Vheader

@@ -64,7 +64,7 @@ export default {
     
   },
   mounted(){
-
+document.title = "猪东东—一路前行,风雨无阻"
 /*百度统计*/
 var _hmt = _hmt || [];
 (function() {

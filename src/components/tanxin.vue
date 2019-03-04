@@ -74,8 +74,11 @@ export default {
       ]
     
     }
+  },
+  mounted(){
+    document.title = document.querySelector(".header-h").innerText
   }
-}
+  }
 </script>
 <style scoped>
 @import "../../public/css/love.css"

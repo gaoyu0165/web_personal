@@ -94,7 +94,10 @@ export default {
   },
   components:{
     news_header
-  }
+  },
+  mounted(){
+    document.title = document.getElementsByTagName("h3")[0].innerText
+  }    
   }
 </script>
 <style scoped>

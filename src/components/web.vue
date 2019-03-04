@@ -163,6 +163,7 @@ export default {
   },
   mounted() {
     this.drawecharts();
+    document.title = "猪东东-前端开发"
   }
   }
 </script>

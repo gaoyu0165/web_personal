@@ -68,7 +68,10 @@ export default {
       ]
     
     }
-  }
+  },
+  mounted(){
+    document.title = document.querySelector(".header-h").innerText
+  }  
 }
 </script>
 <style scoped>

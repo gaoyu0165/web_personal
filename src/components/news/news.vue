@@ -61,7 +61,10 @@ export default {
   },
   components:{
     news_header
-  }
+  },
+  mounted() {
+    document.title = "天方夜谭—有深度的好文章"
+  }  
 }
 </script>
 <style scoped>
