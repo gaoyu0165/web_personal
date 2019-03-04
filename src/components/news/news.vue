@@ -11,7 +11,7 @@
     <dl class="classiclist">
      <router-link to="/news/news6" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/news/chip1.jpg" alt="看看中国“芯”"></dd>
-      <dt class="classiclist-h">看看中国“芯”<img src="../../assets/xin.png"></dt>
+      <dt class="classiclist-h">中国“芯”<img src="../../assets/xin.png"></dt>
      </router-link>
     </dl>    
     <dl class="classiclist">
@@ -63,7 +63,7 @@ export default {
     news_header
   },
   mounted() {
-    document.title = "天方夜谭—有深度的好文章"
+    document.title = "天方夜谭❤有深度的好文章"
   }  
 }
 </script>

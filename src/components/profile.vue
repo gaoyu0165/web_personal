@@ -64,7 +64,7 @@ export default {
     }
   },
   mounted(){
-    document.title = "猪东东-个人资料"
+    document.title = "猪东东❤个人资料"
   }      
 }
 </script>

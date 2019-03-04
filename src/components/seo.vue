@@ -15,7 +15,7 @@ export default {
     }
   },
   mounted(){
-    document.title = "猪东东-搜索引擎优化"
+    document.title = "猪东东❤搜索引擎优化"
   }    
 }
 </script>

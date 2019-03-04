@@ -2,7 +2,7 @@
   <div class="news6">
   <news_header></news_header>
   <div id="main">
-    <h3>看看中国“芯”</h3>
+    <h3>中国“芯”</h3>
     <p class="Author">本文转自：老和山下的小学僧<span>(致敬原著，如有偏差，请联系)</span></p>
     <img src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/pic/item/0bd162d9f2d3572c6eb3321c8713632763d0c399.jpg" alt="">
     <p>芯片，以储量最丰富成本最廉价的二氧化硅为原料，成就了这个星球的科技之巅，颁一枚最佳逆袭奖，实至名归！</p>

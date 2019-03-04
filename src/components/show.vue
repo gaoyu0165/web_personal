@@ -32,7 +32,7 @@ export default {
     };
   },
   mounted() {
-    document.title = "猪东东-图片懒加载"
+    document.title = "猪东东❤图片懒加载"
   }  
 };
 </script>

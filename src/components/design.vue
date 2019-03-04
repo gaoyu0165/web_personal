@@ -846,7 +846,7 @@ export default {
     }
   },
   mounted() {
-    document.title = "猪东东-UI设计"
+    document.title = "猪东东❤UI设计"
   }  
 }
 </script>
