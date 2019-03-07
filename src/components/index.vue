@@ -43,6 +43,7 @@
         <i class="chevron bottom"></i>
       </span>
   </div>
+  <span class="beian">备案序号：粤ICP备18068542号</span>
 </div>  
 
 </div>
@@ -83,7 +84,6 @@ var _hmt = _hmt || [];
 .weixin{width: 2rem!important;height: 2rem!important;}
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
-
 /*header*/
 .logo{background: url(../assets/logo2.png) 50% 50% no-repeat;height: 70px;width: 70px;transition: all 5s ease-in-out;transition-delay:.3s;}
 .nav{transform: translateY(-70px);transition: all 1s;}
@@ -107,8 +107,8 @@ var _hmt = _hmt || [];
 .banner-text2{display: block;margin: 0 auto;padding-top: 20px;max-width: 50%;}
 /*联系qq微信*/
 .lianxi{display: flex;justify-content: space-around;padding-top: 50px;}
-
 .weixin{width: 4rem;height: 4rem;}
+.beian{display: none}
 /* .canvas-h3{position: absolute;left: 50%;top: 20%;width: 480px;height: 89px;background: url(../assets/dong.png) 50% 50% no-repeat;transform: translate(-50% ,0);} */
 
 /* .header:hover >.index .hero__scroll{top: -20%!important} */

@@ -21,6 +21,12 @@
      </router-link>
     </dl>    
     <dl class="classiclist">
+     <router-link to="/news/news7" class="classiclist-a">
+      <dd class="classiclist-img"><img src="https://p.nanrenwo.net/uploads/allimg/170925/8472-1F925150951.jpg" alt="女主播：月入十万，我还是很孤独"></dd>
+      <dt class="classiclist-h">女主播：月入十万，我还是很孤独</dt>
+     </router-link>
+    </dl>    
+    <dl class="classiclist">
      <router-link to="/news/news2" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/classic19.jpg" alt="东BAT公司内部岗位级别和薪资结构"></dd>
       <dt class="classiclist-h">BAT公司内部岗位级别和薪资结构</dt>
@@ -82,7 +88,7 @@ export default {
     background-color: rgba(255,255,255,1);
     border: 1px solid #e8f8ff;
     border-radius: 4px;
-    overflow: hidden;
+    cursor: pointer;
     box-shadow: 0 10px 15px rgba(0,0,0,.05);
     transition: all .2s;
     margin: 2rem .5em 0;}

@@ -10,6 +10,7 @@ import news3 from "./components/news/news3.vue";
 import news4 from "./components/news/news4.vue";
 import news5 from "./components/news/news5.vue";
 import news6 from "./components/news/news6.vue";
+import news7 from "./components/news/news7.vue";
 import design from "./components/design.vue";
 import web from "./components/web.vue";
 import show from "./components/show.vue";
@@ -35,6 +36,7 @@ export default [
   {path:'/news/news4',component:news4,name: "news4"},
   {path:'/news/news5',component:news5,name: "news5"},
   {path:'/news/news6',component:news6,name: "news6"},
+  {path:'/news/news7',component:news7,name: "news7"},
   {path:'/design',component:design,name: "design"},
   {path:'/web',component:web,name: "web"},
   {path:'/data',component:data,name: "data"},
