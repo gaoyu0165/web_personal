@@ -52,7 +52,7 @@
 <script>
 
 export default {
-  name: 'index',
+  name: 'indexq',
   data () {
     return {
       msg: 'index'

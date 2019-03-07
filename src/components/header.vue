@@ -39,7 +39,7 @@
 
 <script>
 export default {
-  name: "vheader",
+  name: "v_header",
   data() {
     return {
       msg: "header",
