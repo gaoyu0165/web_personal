@@ -1,7 +1,7 @@
 <template>
 <div id="header">
   <h2 class="header-h"><img src="../../../static/bigimg/news.png" alt="猪东东"></h2>
-  <p class="header_p">—有深度的内容</p>
+  <p class="header_p">—有深度的好内容</p>
 </div>
 </template>
 

@@ -1,12 +1,12 @@
 
 @media screen and (max-width: 801px) {
-#main{width: 97%!important;}
+#main{width: 97%!important;padding-bottom: 0.5rem!important}
 #main .Author{font-size: .7rem!important;}
 #main .Author span{font-size: .5rem!important}
 #main h3{line-height: 1.1rem!important; font-size: 1.3rem!important;padding: 1rem 0 .5rem 0!important;}
     } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
-#main{width: 80%;margin: 0 auto}
+#main{width: 70%;margin: 0 auto;padding-bottom: 1rem;}
 #main h3{ font-size: 2.5rem;
     line-height: 1.5em;
     padding: 2rem 0 1rem 0;
@@ -17,10 +17,11 @@
 #main p{margin-bottom: 15px;
     color: #000;line-height: 2em;text-indent: 2em;}
 #main .Author{font-size: .8rem;color: #999;text-align: center;width: 100%;text-align: center;line-height:.9rem;margin-bottom: 0!important;}
-#main .Author span{font-size: .7rem;color: #ccc;padding-left: .5rem;}
+#main .Author span{font-size: .7rem;color: #ccc;padding-left: .5rem;display: inline;}
 #main img{max-width: 100%;margin-bottom: 15px;margin: 0 auto;display: block;padding: 10px 0;width: auto;}
 strong{font-weight: normal;color: rgba(0,0,0,0.001);display: block;position: absolute;}
 .ceshi-h2{width: 100%;height: 100vh;line-height: 100%;text-align: center;}
-
+em{border-bottom: 1px dashed #f00;height: 2rem;line-height: 2rem;}
+span{color: #999;text-align: center;display: block}
 /*loadingimg*/
 .demo img,.demoimg { width: 100%; height: 100%; background: url(../../src/assets/loading.gif) 50% no-repeat;}

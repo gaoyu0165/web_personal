@@ -9,43 +9,49 @@
      </router-link>
     </dl>
     <dl class="classiclist">
-     <router-link to="/news/news6" class="classiclist-a">
+     <router-link to="/news6" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/news/chip1.jpg" alt="看看中国“芯”"></dd>
       <dt class="classiclist-h">中国“芯”<img src="../../assets/xin.png"></dt>
      </router-link>
     </dl>    
     <dl class="classiclist">
-     <router-link to="/news/news4" class="classiclist-a">
+     <router-link to="/news4" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/news/172347349686.gif" alt="别乱买了，面膜真正的作用就这一个"></dd>
       <dt class="classiclist-h">别乱买了，面膜真正的作用就这一个</dt>
      </router-link>
     </dl>    
     <dl class="classiclist">
-     <router-link to="/news/news7" class="classiclist-a">
+     <router-link to="/news7" class="classiclist-a">
       <dd class="classiclist-img"><img src="https://p.nanrenwo.net/uploads/allimg/170925/8472-1F925150951.jpg" alt="女主播：月入十万，我还是很孤独"></dd>
       <dt class="classiclist-h">女主播：月入十万，我还是很孤独</dt>
      </router-link>
     </dl>    
     <dl class="classiclist">
-     <router-link to="/news/news2" class="classiclist-a">
+     <router-link to="/news8" class="classiclist-a">
+      <dd class="classiclist-img"><img src="https://s3.ifanr.com/wp-content/uploads/2019/03/46749037faee1470eb11baa86b0b6497213b2582.jpg!720" alt="给中介房源照片修图，正在成为一门新生意"></dd>
+      <dt class="classiclist-h">中介房源陷阱多<img src="../../assets/gif1.gif"></dt>
+     </router-link>
+    </dl>    
+    <dl class="classiclist">
+     <router-link to="/news2" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/classic19.jpg" alt="东BAT公司内部岗位级别和薪资结构"></dd>
       <dt class="classiclist-h">BAT公司内部岗位级别和薪资结构</dt>
      </router-link>
     </dl>
     <dl class="classiclist">
-     <router-link to="/news/news5" class="classiclist-a">
+     <router-link to="/news5" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/news/1231.jpg" alt="你看不懂的眼镜"></dd>
       <dt class="classiclist-h">你看不懂的眼镜<img src="../../assets/gif1.gif"></dt>
      </router-link>
     </dl>
     <dl class="classiclist">
-     <router-link to="/news/news3" class="classiclist-a">
+     <router-link to="/news3" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/classic26.jpg" alt="一个小格子一天500万"></dd>
       <dt class="classiclist-h">一个小格子一天500万<img src="../../assets/gif1.gif"></dt>
      </router-link>
     </dl>
     <dl class="classiclist">
-     <router-link to="/news/news1" class="classiclist-a">
+     <router-link to="/news1" class="classiclist-a">
       <dd class="classiclist-img"><img src="../../assets/classic9.gif" alt="2019UI设计趋势"></dd>
       <dt class="classiclist-h">2019UI设计趋势</dt>
      </router-link>
@@ -69,7 +75,7 @@ export default {
     news_header
   },
   mounted() {
-    document.title = "天方夜谭❤有深度的好文章"
+    document.title = "天方夜谭❤有深度的好内容"
   }  
 }
 </script>

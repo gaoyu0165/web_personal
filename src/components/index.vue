@@ -43,7 +43,7 @@
         <i class="chevron bottom"></i>
       </span>
   </div>
-  <span class="beian">备案序号：粤ICP备18068542号</span>
+  <small class="beian">备案序号：粤ICP备18068542号</small>
 </div>  
 
 </div>
