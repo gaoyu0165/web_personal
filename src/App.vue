@@ -8,7 +8,7 @@
 <script>
 import Vheader from "./components/header";
 export default {
-  name: 'Appq',
+  name: 'App',
   components: {
     Vheader
   },

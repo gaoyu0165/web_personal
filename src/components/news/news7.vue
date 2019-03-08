@@ -161,7 +161,7 @@
 import news_header from "./news_header";
 
 export default {
-  name: "news1",
+  name: "news7",
   data() {
     return {
       msg: "news5",

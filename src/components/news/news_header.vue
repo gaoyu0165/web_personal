@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'news',
+  name: 'news_header',
   data () {
     return {
       msg: 'news'
