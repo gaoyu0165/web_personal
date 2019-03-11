@@ -57,7 +57,7 @@ export default {
 @media screen and (max-width: 801px) {.logo{width:1.5rem!important;height: 1.5rem!important; background-size: contain!important;margin: .3rem 0 0 .2rem;};
 .nav li a {line-height:2.2rem!important;}
 .header{height: 2.2rem!important;}
-.nav li{height: 2.2rem!important;}
+.nav li{height: 2.2rem!important;padding: 0 .5rem;}
 .header .el-submenu__title{height: 100%!important;line-height: 2.2rem!important;}
 .nav{padding-left: 10%!important;background-color: rgba(0,0,0,.6)!important}
 /* #app .nav{padding-left:2rem;  background-color: rgba(225, 190, 190, 0.8)!important;}.el-menu--popup a .el-menu-item{border-bottom: none;background-color: rgba(225, 190, 190, 0.8)!important} */

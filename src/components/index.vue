@@ -112,8 +112,8 @@ console.log([
 .logo{background: url(../assets/logo2.png) 50% 50% no-repeat;height: 70px;width: 70px;transition: all 5s ease-in-out;transition-delay:.3s;}
 .nav{transform: translateY(-70px);transition: all 1s;}
 
-.banner-h1::before{content: "";width: 1px;height: 1px;background: #e11313;position: absolute;left: 55%;top: 15px;animation: dongdong linear 2s infinite;transform: translate(-50%, 0);margin-top: 22%;}
-.banner-h1::after{content: "";width: 1px;height: 1px;background: #e11313;position: absolute;left: 45%;top: 15px;animation: dongdong1 linear 2s infinite;animation-delay:1s;transform:translate(-50%, 0);margin-top: 22%;}
+.banner-h1::before{content: "";width: 1px;height: 1px;background: #e11313;position: absolute;left: 55%;top: 15px;animation: dongdong linear 2s infinite;transform: translate(-50%, 0);margin-top: 4%;}
+.banner-h1::after{content: "";width: 1px;height: 1px;background: #e11313;position: absolute;left: 45%;top: 15px;animation: dongdong1 linear 2s infinite;animation-delay:1s;transform:translate(-50%, 0);margin-top: 4%;}
 @keyframes dongdong {
   0% {position: absolute;left: 45%;bottom: 5px;opacity:0;width: 1px;height: 1px; }
   50% {position: absolute;left: 50%;bottom: 5px;opacity:1;width:3px;height: 1px;}
@@ -143,7 +143,7 @@ console.log([
   display: block;
   /* cursor: pointer; */
   left: 50%;
-  top:0%;
+  top:-1%;
   transform: translate(-50%,0%);
   text-transform: uppercase; }
   .hero__scroll .chevron, .chevron{

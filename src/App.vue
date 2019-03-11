@@ -17,8 +17,9 @@ export default {
 
 <style >
 @media screen and (max-width: 801px) {
-
+.el-menu--popup{padding: 0!important}
 #header{height: 3.6rem!important;}.header-h{padding-top: 1rem!important;}
+.el-menu--horizontal>.el-submenu .el-submenu__icon-arrow{margin-left: 0!important;}
 /* 标题字大小 */
 .header-h img{width:27%!important;margin: 0 auto;vertical-align:middle} 
 .main-text{padding: 0rem!important;margin: 0!important;border: none!important;padding:.5rem 0 0 0!important;}.main-pic{margin: 0!important}
@@ -26,8 +27,9 @@ export default {
 .header .el-submenu__title{height: 100%!important;line-height: 2.2rem!important;}
 /* 导航字体大小 */
 .el-submenu__title{font-size: .8rem}
-.el-menu--horizontal .el-menu--popup{min-width: 4.5rem!important;}
-.el-menu--horizontal .el-menu .el-menu-item, .el-menu--horizontal .el-menu .el-submenu__title{height: 1.5rem;line-height: 1.5rem;font-size: .6rem}
+.el-menu--horizontal .el-menu--popup{min-width: 4rem!important;}
+/* 下拉出来的小导航条 */
+.el-menu--horizontal .el-menu .el-menu-item, .el-menu--horizontal .el-menu .el-submenu__title{height: 1.5rem!important;line-height: 1.5rem!important;font-size: .9rem}
 #app p{font-size: 1rem!important;font-size: 1rem}
 .tree{background: none!important}
 /* profile 的走马灯的手机高度 */
@@ -35,19 +37,31 @@ export default {
 
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 @media screen and (max-width: 1377px) {
+.el-menu--horizontal>.el-submenu .el-submenu__icon-arrow{margin-left:.5rem!important;}
+.el-menu--horizontal>.el-submenu .el-submenu__icon-arrow{margin-left: 0!important;}
+.el-menu--horizontal .el-menu .el-submenu__title{height: 1.5rem!important;line-height: 1.5rem!important;font-size: .9rem}
 .el-carousel__container{height: 21rem!important;}
 }@media screen and (max-width: 1011px) {
+.el-menu--horizontal>.el-submenu .el-submenu__icon-arrow{margin-left: 0!important;}
 .el-carousel__container{height: 6rem!important;}
+.el-menu--popup{padding: 0!important}
+.el-menu--horizontal .el-menu .el-submenu__title{height: 1.5rem!important;line-height: 1.5rem!important;font-size: .9rem}
 .header-h img{width:20%!important;margin: 0 auto;vertical-align:middle}
 }
 @media screen and (max-width: 375px) {
 /* profile 的走马灯的手机高度 */
+.el-menu--horizontal>.el-submenu .el-submenu__icon-arrow{margin-left: 0!important;}
+.el-menu--popup{padding: 0!important}
 .el-carousel__container{height: 5.5rem!important;}
+.el-menu--horizontal .el-menu .el-submenu__title{height: 1.5rem!important;line-height: 1.5rem!important;font-size: .9rem}
 .header-h img{width:20%!important;margin: 0 auto;vertical-align:middle}
 }
 @media screen and (max-width: 325px) {
 /* profile 的走马灯的手机高度 */
+.el-menu--horizontal>.el-submenu .el-submenu__icon-arrow{margin-left: 0!important;}
+.el-menu--popup{padding: 0!important}
 .el-carousel__container{height: 4.7rem!important;}
+.el-menu--horizontal .el-menu .el-submenu__title{height: 1.5rem!important;line-height: 1.5rem!important;font-size: .9rem}
 .header-h img{width:30%!important;margin: 0 auto;vertical-align:middle}
 }
 
@@ -61,7 +75,7 @@ body{background-image: url(assets/shadow-footer.png);width: 100%;height: 100%;}
 /* 导航下拉小图标 */
 .el-submenu__title i{color:rgba(0, 0, 0, .3)!important}
 .el-submenu__title:hover i{color:rgba(255, 255, 255,.7)!important}
-
+.el-menu--horizontal>.el-submenu .el-submenu__icon-arrow{margin-left:.2rem!important;}
   
 /*hover*/
        abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
