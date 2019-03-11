@@ -23,7 +23,13 @@ export default {
 .header-h img{width:27%!important;margin: 0 auto;vertical-align:middle} 
 .main-text{padding: 0rem!important;margin: 0!important;border: none!important;padding:.5rem 0 0 0!important;}.main-pic{margin: 0!important}
 .main-one{flex-direction:column }
+.header .el-submenu__title{height: 100%!important;line-height: 2.2rem!important;}
+/* 导航字体大小 */
+.el-submenu__title{font-size: .8rem}
+.el-menu--horizontal .el-menu--popup{min-width: 4.5rem!important;}
+.el-menu--horizontal .el-menu .el-menu-item, .el-menu--horizontal .el-menu .el-submenu__title{height: 1.5rem;line-height: 1.5rem;font-size: .6rem}
 #app p{font-size: 1rem!important;font-size: 1rem}
+.tree{background: none!important}
 /* profile 的走马灯的手机高度 */
 .el-carousel__container{height: 6.2rem!important;}
 
@@ -52,6 +58,10 @@ body{background-image: url(assets/shadow-footer.png);width: 100%;height: 100%;}
 .el-submenu__title{background-color: rgba(0,0,0,0)!important;}
 #header{height: 15rem;background: url(assets/banner3.jpg);background-attachment:fixed;background-size: contain}
 .header-h{padding-top: 6rem;}
+/* 导航下拉小图标 */
+.el-submenu__title i{color:rgba(0, 0, 0, .3)!important}
+.el-submenu__title:hover i{color:rgba(255, 255, 255,.7)!important}
+
   
 /*hover*/
        abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {

@@ -5,9 +5,9 @@
       :default-active="activeIndex"
       class="el-menu-demo nav"
       mode="horizontal"
-      text-color="#fff"
+      text-color="#e0e0e0"
       background-color="rgba(0,0,0,.3)"
-      active-text-color=" rgba(225, 19, 19, 0.8)"
+      active-text-color=" rgba(52, 252, 105, 0.7)"
       @select="handleSelect">
       <el-submenu index="1" class="active">
         <template slot="title" class="dongdong">东东简介</template>
@@ -54,9 +54,12 @@ export default {
 };
 </script>
 <style scoped>
-@media screen and (max-width: 801px) {.logo{width:1.5rem!important;height: 1.5rem!important; background-size: contain!important;margin: .5rem 0 0 .2rem;};
-.nav li a {line-height:2.5rem!important;}
-.nav{padding-left: 9%!important}
+@media screen and (max-width: 801px) {.logo{width:1.5rem!important;height: 1.5rem!important; background-size: contain!important;margin: .3rem 0 0 .2rem;};
+.nav li a {line-height:2.2rem!important;}
+.header{height: 2.2rem!important;}
+.nav li{height: 2.2rem!important;}
+.header .el-submenu__title{height: 100%!important;line-height: 2.2rem!important;}
+.nav{padding-left: 10%!important;background-color: rgba(0,0,0,.6)!important}
 /* #app .nav{padding-left:2rem;  background-color: rgba(225, 190, 190, 0.8)!important;}.el-menu--popup a .el-menu-item{border-bottom: none;background-color: rgba(225, 190, 190, 0.8)!important} */
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
@@ -82,8 +85,8 @@ export default {
   content: "";
   width: 0px;
   height: 1px;
-  z-index: 93;
-  background: rgba(52, 168, 83,1);
+  z-index: 999;
+  background: rgba(255, 19, 19,.9);
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -122,8 +125,8 @@ export default {
   /* background-color: rgba(255, 255, 255, 0); */
 }
 .el-menu--popup a .el-menu-item:hover{
-  background-color: rgba(225, 19, 19, 0.8);
-  color: rgba(225, 19, 19, 0.8);
+  background-color: rgba(225, 19, 19, 0.1);
+  color: rgba(225, 19, 19, 0.1);
 }
 /* logo */
 .logo{background: url(../assets/logo.png) 50% 50% no-repeat;height: 3.75rem;width:3.75rem;transition: all 5s ease-in-out;transition-delay:.3s;position: absolute;z-index: 1000;}
@@ -132,8 +135,8 @@ export default {
 .el-menu--horizontal>.el-menu-item{border-bottom: none;background-color: rgba(0, 0, 0, .3)!important}
 .active{background-color: rgba(0,0,0,0)!important;}
 .el-submenu__title{background-color: rgba(0,0,0,0)!important;}
-.active:hover{background-color: rgba(225, 19, 19, 0.5)!important; }
-.el-menu-item:hover{background-color: rgba(225, 19, 19, 0.5)!important;color: #000!important }
+.active:hover{background-color: rgba(225, 19, 19, 0.3)!important; }
+.el-menu-item:hover{background-color: rgba(225, 19, 19, 0.3)!important;color: #fff!important }
 /* .active:hover .el-submenu__title{color: #fff!important } */
 /* .el-menu--horizontal>.el-submenu:hover .el-submenu-title{color: #fff} */
 

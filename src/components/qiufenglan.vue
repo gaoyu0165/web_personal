@@ -11,6 +11,7 @@
       <img :src="item" alt="猪东东">       
     </el-carousel-item>
   </el-carousel>    
+        <p id="regtime"></p>
     <div class="main-one">
       <div class="main-pic" data-aos-easing="ease-out-back" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" ><img src="../assets/qiu1.jpg" alt="猪东东的轱辘"></div>
         <p class="main-text"   data-aos-easing="ease-out-back" data-aos-delay="500" data-aos="fade-up" data-aos-duration="1000">我想咬你啊❤</p>
@@ -49,8 +50,6 @@
     </div>  
     </div>
 </div>
-
-
 </div>
 </template>
 
@@ -70,8 +69,36 @@ export default {
     }
   },
   mounted(){
+    var self = this
     document.title = document.querySelector(".header-h").innerText
-  }  
+    setInterval(function(){
+      self.time("2019/01/05 19:09:09");
+    },1000)
+  },
+  methods:{
+    addZero(time) {
+      if (time < 10) {
+        return "0" + time;
+      } else {
+        return time;
+      }
+    },
+    time(regtime) {
+        var regtime = new Date(regtime);
+        var newtime = new Date();
+        var timesecond = parseInt(newtime.getTime() - regtime.getTime()) / 1000;
+        var d = parseInt(timesecond / (24 * 60 * 60));
+        var h = parseInt((timesecond / (60 * 60)) % 24);
+        var m = parseInt((timesecond / 60) % 60);
+        var s = parseInt(timesecond % 60);
+        d = this.addZero(d);
+        h = this.addZero(h);
+        m = this.addZero(m);
+        s = this.addZero(s);
+        document.getElementById("regtime").innerText = 
+          "我们已经认识了" + d + "天" + h + "小时" + m + "分" + s + "秒"
+    }    
+  }
 }
 </script>
 <style scoped>
