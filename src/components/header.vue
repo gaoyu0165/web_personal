@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <router-link to="/"><div class="logo"></div></router-link>
+    <!--<router-link to="/"><div class="logo"></div></router-link>-->
     <el-menu
       :default-active="activeIndex"
       class="el-menu-demo nav"
@@ -11,28 +11,28 @@
       @select="handleSelect">
       <el-submenu index="1" class="active">
         <template slot="title" class="dongdong">东东简介</template>
-        <router-link to="/profile"><el-menu-item index="1-1">个人信息</el-menu-item></router-link>
-        <router-link to="/news"><el-menu-item index="1-2">天方夜谭</el-menu-item></router-link>
-        <router-link ><el-menu-item index="1-3" disabled>暂无信息</el-menu-item></router-link>
-      </el-submenu>      
+        <router-link :to="{naem: 'profile'}"><el-menu-item index="1-1">个人信息</el-menu-item></router-link>
+        <router-link :to="{name: 'news'}"><el-menu-item index="1-2">天方夜谭</el-menu-item></router-link>
+        <!--<router-link ><el-menu-item index="1-3" disabled>暂无信息</el-menu-item></router-link>-->
+      </el-submenu>
       <el-submenu index="2" class="active">
         <template slot="title">东东技术</template>
-        <router-link to="/design"><el-menu-item index="2-1">UI design</el-menu-item></router-link>
-        <router-link to="/web"><el-menu-item index="2-2">前端开发</el-menu-item></router-link>
-        <router-link to=""><el-menu-item index="2-3" disabled>小程序</el-menu-item></router-link>
-        <router-link to="/seo"><el-menu-item index="2-4">SEO</el-menu-item></router-link>
-        <router-link to=""><el-menu-item index="2-5" disabled>python</el-menu-item></router-link>
+        <router-link :to="{name: 'design'}"><el-menu-item index="2-1">UI design</el-menu-item></router-link>
+        <router-link :to="{name: 'web'}"><el-menu-item index="2-2">前端开发</el-menu-item></router-link>
+        <!--<router-link><el-menu-item index="2-3" disabled>小程序</el-menu-item></router-link>-->
+        <router-link :to="{name: 'seo'}"><el-menu-item index="2-4">SEO</el-menu-item></router-link>
+        <!--<router-link><el-menu-item index="2-5" disabled>python</el-menu-item></router-link>-->
       </el-submenu>
       <el-submenu index="3" class="active tree">
         <template slot="title">大数据展</template>
-        <router-link to="/data"><el-menu-item index="3-1">大数据展示</el-menu-item></router-link>
-        <router-link to="/data_global"><el-menu-item index="3-2">大数据 + 地图</el-menu-item></router-link>
-        <router-link to=""><el-menu-item index="3-3" disabled>3D大数据展示</el-menu-item></router-link>
-      </el-submenu>         
+        <router-link :to="{name: 'data'}"><el-menu-item index="3-1">大数据展示</el-menu-item></router-link>
+        <router-link :to="{name: 'data_global'}"><el-menu-item index="3-2">大数据 + 地图</el-menu-item></router-link>
+        <!--<router-link><el-menu-item index="3-3" disabled>3D大数据展示</el-menu-item></router-link>-->
+      </el-submenu>
       <el-submenu index="4" class="active">
         <template slot="title" class="active">4K高清</template>
-        <router-link to="/show"><el-menu-item index="4-1">4K高清</el-menu-item></router-link>
-      </el-submenu>         
+        <router-link :to="{name: 'show'}"><el-menu-item index="4-1">4K高清</el-menu-item></router-link>
+      </el-submenu>
     </el-menu>
   </div>
 </template>
@@ -47,9 +47,9 @@ export default {
     };
   },
   methods:{
-      // handleSelect(key, keyPath) {
-      //   console.log(key, keyPath);
-      // }  ,
+      handleSelect(key, keyPath) {
+        console.log(key, keyPath)
+      }
   }
 };
 </script>
@@ -61,7 +61,7 @@ export default {
 .header .el-submenu__title{height: 100%!important;line-height: 2.2rem!important;}
 .nav{padding-left: 10%!important;background-color: rgba(0,0,0,.6)!important}
 /* #app .nav{padding-left:2rem;  background-color: rgba(225, 190, 190, 0.8)!important;}.el-menu--popup a .el-menu-item{border-bottom: none;background-color: rgba(225, 190, 190, 0.8)!important} */
-} /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
+} /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */
 
 
 .header{width: 100%;height: 3.75rem;position: fixed;z-index: 98;overflow: hidden;}
